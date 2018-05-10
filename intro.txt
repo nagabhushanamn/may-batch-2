@@ -1,0 +1,78 @@
+
+ref : http://crockford.com/
+
+
+why we need .js-lang?
+
+    =>  scripting lang for web-pages in browser-envi
+    +
+    => server-side lang on Node.js
+    => Mobile Native Application
+
+------------------------------------------------------
+
+ Feature(s)
+
+    =>  FP + OOP
+    =>  dynamic 
+
+    => Non-blocking IO
+    => single-threaded process , we can execute concurrent actions becoz of non blocking IO
+
+------------------------------------------------------
+
+standard:
+
+    => 'ECMAScript' spec
+
+    latest : ES7
+
+------------------------------------------------------
+
+how to run .js-program ?
+
+==> 'JavaScript-runtime '
+
+ browser-envi
+
+   a. chrome  => v8(c++)
+   b. firefox => rhino(java)
+   c. IE/Edge => chakra
+   d. Safari  => nitro
+   ...........
+
+
+other envi     
+
+    a. Node.js => v8
+    b. JVM => rhino / nashorn
+    ......
+
+---------------------------------------------------    
+" HelloWorld "
+---------------------------------------------------   
+
+topics
+-------
+
+ 1. data-types
+ 2. scopes / execution-context
+ 3. FP + OOP concepts
+ 4. function-binding   ( static & dynamic )
+ 5. prototypes
+
+ 6. ES6 new-syntax
+ 7. ES6 new new APIs 
+ 8. ES modules
+ 8. Async APIs
+ 9. Concurreny Model using EventLoop
+ 10. Type-script lang
+
+------------------------------------------------
+
+
+
+
+
+
+
