@@ -182,3 +182,69 @@
 //     console.log(rest);
 // }
 // func(1, 2, 3, 4, 5, 6);
+
+//---------------------------------------------------
+
+
+// closure(s)
+//--------------
+
+/*
+    A closure is a function having access to the parent scope,
+    even after the parent function has closed.
+*/
+
+// function teach(sub) {
+//     console.log('teaching ' + sub);
+//     let notes = sub + "-notes";
+//     function learn() {
+//         console.log('learning with ' + notes);
+//     }
+//     // learn();
+//     console.log('teaching ends...');
+//     return learn;
+// }
+
+// let learnFunc = teach('.js'); // teach-scope
+// learnFunc();
+// learnFunc();
+
+//---------------------------------------------------
+
+
+
+// why / where we need closures ?
+
+/*
+
+    ==> to abstract public-behav of any module
+
+*/
+
+
+// ==> to abstract public-behav of any module
+
+/*
+
+    e.g counter module
+
+    - count
+    - doCount()
+    - getCount()
+
+*/
+
+// const counter=(function() {
+//     let count = 0; // primate
+//     // public
+//     function doCount() {
+//         count++;
+//     }
+//     function getCount() {
+//         return count;
+//     }
+//     return {
+//         inc: doCount,
+//         get: getCount
+//     };
+// })();
