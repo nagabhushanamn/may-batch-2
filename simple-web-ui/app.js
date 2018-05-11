@@ -52,6 +52,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 
+    //-------------------------------------------------
+
+    let loadTodosBtn = document.getElementById('loadTodosBtn');
+    let todosBox = document.getElementById('todos-box');
+    loadTodosBtn.addEventListener('click', () => {
+        let promise = fetch('https://jsonplaceholder.typicode.com/todos?_limit=5')
+        promise
+            .then((response) => response.json())
+            .then(todos => {
+                todosBox.innerText = JSON.stringify(todos);
+            })
+
+    })
+
 
 
 })

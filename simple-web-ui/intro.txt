@@ -19,8 +19,8 @@ using DOM
     -> can create rich-UI components
     ....
 
-using XHR
-------------
+using XHR / fetch
+------------------
     -> can communicate with server-side programs async,
        then update respnse in existing page ( AJAX )
        
