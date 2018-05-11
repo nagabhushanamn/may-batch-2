@@ -28,3 +28,62 @@ using Timer API
 ---------------
     -> can execute any actions on page with timeout/time-interval
 
+
+HTML-5 APIs
+----------------
+
+    ref : https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+
+
+
+
+
+problems with plain-js ( your-code ) with browser-apis
+------------------------------------------------------
+
+
+    => browser compatability issues
+    => memory issues ( i.e clean un-used DOM-elements)
+    => performance issues ( i.e DOM manipulation should be minimla)
+    => too much code for simple operations
+    => data-binding is manual
+    => code organization is difficult..
+
+
+soln:
+
+    => by using third-party's javascript lib & F.Ws
+
+
+    1. jQuery  ( ==> DOM utility lib)
+
+    MVC & MVVM based lib & F.Ws
+
+    2. knockout.js
+    3. backbone.js  , marionet.js
+    4. AngularJS  from google-team
+    5. EmberJS
+    6. DOJO
+    7. ExJS
+
+    ...........
+
+
+    web-components / custom-elements standard ( from w3c )
+
+
+    -> React.JS
+    -> Angular   ( ur course )
+    -> Aurelia
+    -> Vue
+    ....
+
+
+
+
+----------------------------------------------------------
+
+
+
+
+
