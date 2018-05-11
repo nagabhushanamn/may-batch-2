@@ -1,0 +1,30 @@
+
+
+
+what .js-lang can do on html-page within browser-envi?
+
+using browser provided web-apis, 
+javascript language can do any dynamic-actions in page
+
+browser provided web-apis: ( w3c recommendation )
+     DOM,XHR,Timer,.....
+
+using DOM
+------------
+    -> can create,retreive,,update,delete HTML elements
+    -> can change element's inner text/html content
+    -> can change element's style
+    -> can change element's properties/attributes
+    -> can validate form-fields before submit
+    -> can create rich-UI components
+    ....
+
+using XHR
+------------
+    -> can communicate with server-side programs async,
+       then update respnse in existing page ( AJAX )
+       
+using Timer API
+---------------
+    -> can execute any actions on page with timeout/time-interval
+
